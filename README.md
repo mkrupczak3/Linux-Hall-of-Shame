@@ -1,15 +1,15 @@
 # Linux-Hall-of-Shame
 A shaming hall for every time I have to wipe my computer's butt because something simple doesn't work or it can't figure out how to do something very easy
 
-#Steam 
+# Steam 
 https://askubuntu.com/questions/1038754/steam-wont-start-on-18-04
 
-#Laptop Graphics crap (horrendous on Linux):
+# Laptop Graphics crap (horrendous on Linux):
 ## Check graphics cards
 lspci -k | grep -A 2 -i "VGA"
 
-# #Switch to using integrated graphics on a linux laptop with nvidia x server installed
-# #https://www.linuxbabe.com/desktop-linux/switch-intel-nvidia-graphics-card-ubuntu
+## Switch to using integrated graphics on a linux laptop with nvidia x server installed
+## https://www.linuxbabe.com/desktop-linux/switch-intel-nvidia-graphics-card-ubuntu
 sudo prime-select intel
 
 ## Switch to using nvidia graphics on a linux laptop with nvidia x server installed (for games, ML, etc.)
