@@ -1,5 +1,5 @@
 # Linux-Hall-of-Shame
-A shaming hall for every time I have to wipe my computer's butt because something simple doesn't work or it can't figure out how to do something very easy. I'm using a Ubuntu Long Term Support release, not Arch for those wondering. 
+A shaming hall for every time I have to wipe my computer's butt because something simple doesn't work or it can't figure out how to do something very easy. I'm using a Ubuntu Long Term Support release, not Arch for those wondering. Life shouldn't have to be this hard.
 
 The year of Linux on the Desktop for those wondering, is probably one day after the heat death of the universe the way things look currently. No human should have to experience this misery. 
 
