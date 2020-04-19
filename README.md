@@ -36,3 +36,27 @@ youtube-dl --restrict-filenames --ignore-errors -x --audio-format mp3 https://ww
 ### sudo mv dstat_nvidia_gpu.py /usr/share/dstat/ #move file to the plugins directory of dstat
 dstat -a --nvidia-gpu
 
+# Redshift (blue light removal) [pain in my #%!]
+``` 
+# Issue I've run into MULTIPLE times, very frustrating for something so stupid
+#
+# Start the redshift night-time blue light removal / display dimming service, providing it a longitude and latitude manually
+# Since apparently these garbage-tier developers can't be bothered to get some of the most BASIC
+# software on the planet to work on an esoteric system such as, I don't know, UBUNTU 18.04 LONG TERM SUPPORT (WTF?)
+#
+# https://github.com/jonls/redshift/issues/445
+#
+# https://manpages.ubuntu.com/manpages/trusty/man5/redshift.5.html
+# @TODO change 6471 to the correct daytime color temperature (no modification/redshift)
+redshift -l 4.65:-74.06 -t 6471:3600 -g 0.8 -m randr -v &
+# As an aside, this is a perfect example of why I would never recommend Linux or even Ubuntu to a normal human being. 
+# It just isn't designed for usability, and the contract with users
+# (I do something -> it is supposed to actually work [dammit!]) even with the simplest GUI
+# apps clearly doesn't even exist on this platform. 
+#
+# Never mind trying to convince your grandma to 
+# try to mess with all this crap on the command line every time your computer forgets how to wipe its own a**.
+#
+# This unfortunately has been painfully demonstrated to me time and time again.
+``` 
+
