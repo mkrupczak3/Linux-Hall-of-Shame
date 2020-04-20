@@ -11,7 +11,7 @@ Aparently, I have to update my graphics drivers before even %#$!@ing steam will 
 
 The only way I can do this is to manually turn off the computer/dispaly service and run a proprietary binary from NVIDIA
 
-Neither the PPA that is widely recommended nor the Ubuntu driver thingy I'm trying to use ACTUALLY #$%!!ing work. (this is actually very normal)
+Neither the PPA that is widely recommended nor the Ubuntu driver GUI window I'm trying to use ACTUALLY #$%!!ing work. (this is actually very normal)
 
 First I had to manually edit my grub file to add back in a GRUB screen to the bootup, then I had to GO IN AND MANUALLY EDIT THE GRUB BOOTLOADER TO BOOT INTO SINGLE USER MODE
 
