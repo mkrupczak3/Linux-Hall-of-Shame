@@ -43,7 +43,7 @@ $ ubuntu-drivers device
 
 3:
 
-~~ sudo apt install nvidia-340~~
+~~sudo apt install nvidia-340~~
 
 
 So, given that 440 is the curent number, you think I would be correct in assuming I need to run "sudo apt install nvidia-440" right?
