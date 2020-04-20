@@ -26,7 +26,7 @@ NOW I HAVE TO WADE THROUGH $(@*#* of log files and figure out how I burned down 
 # UPDATE 2020-04-20T19:08-05:00
 [Solution](https://askubuntu.com/q/1191638)
 
-After working on this for over an hour and a half, I was able to fix it NOT by uninstalling and reinstalling the downloaded binary from NVIDIA, but through:
+After working on this for over an hour and a half, I was able to fix it NOT by uninstalling and reinstalling different versions of the driver binary (old, stable, development, etc.) from NVIDIA, but through:
 
 1. MANUALLY $%$^#%@%'ing BLACKLISTING THE NOUVEAU DRIVER (this may or may not be necessary)
 
