@@ -63,6 +63,13 @@ $ sudo apt install nvidia-driver-440
 
 and it works. it just f'ing works. And I feel like an idiot. And also like I've been used or mistreated somehow....
 
+# Update 2020-04-20T19:47-05:00
+I [spoke too soon](https://github.com/ValveSoftware/steam-for-linux/issues/5778) [+](https://github.com/ValveSoftware/steam-for-linux/issues/6366)
+
+(I'm unsure of whether I more want to power through this problem, or just set my computer on fire or drop it from the top of my residence onto the pavement below. I'm opting for number 2, because then at least no one else will have to ever use this pile of garbage ever again)
+
+
+
 # Laptop Graphics crap (horrendous on Linux):
 ## Check graphics cards
 lspci -k | grep -A 2 -i "VGA"
