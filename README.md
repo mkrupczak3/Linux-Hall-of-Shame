@@ -13,7 +13,7 @@ The only way I can do this is to manually turn off the computer/dispaly service 
 
 Neither the PPA that is widely recommended nor the Ubuntu driver GUI window that shipped with the OS I'm trying to use ACTUALLY #$%!!ing work. (this is actually very normal). Again, I'm not asking for the moon, I'm on a long term support release of the most popular "user friendly" distro of Linux (Ubuntu) using some of the "best supported" hardware (Intel/NVIDIA).
 
-First I had to manually edit my grub file to add back in a GRUB screen to the bootup, then I had to GO IN AND MANUALLY EDIT THE GRUB BOOTLOADER TO BOOT INTO SINGLE USER MODE
+First I had to manually edit my grub file to add back in a GRUB bootloader display screen to the bootup sequence, then I had to GO IN AND MANUALLY EDIT THE GRUB BOOTLOADER TO BOOT INTO SINGLE USER MODE
 
 WHEN THAT DIDN'T WORK, I HAD TO REBOOT AND EDIT IT AGAIN TO BOOT INTO RUNLEVEL 3 (no gui)
 
