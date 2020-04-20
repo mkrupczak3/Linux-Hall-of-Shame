@@ -6,6 +6,23 @@ The year of Linux on the Desktop for those wondering, is probably one day after 
 # Steam 
 https://askubuntu.com/questions/1038754/steam-wont-start-on-18-04
 
+# UPDATE 2020-04-20T18:10-05:00
+Aparently, I have to update my graphics drivers before even %#$!@ing steam will launch.
+
+The only way I can do this is to manually turn off the computer/dispaly service and run a proprietary binary from NVIDIA
+
+Neither the PPA that is widely recommended nor the Ubuntu driver thingy I'm trying to use ACTUALLY #$%!!ing work. (this is actually very normal)
+
+First I had to manually edit my grub file to add back in a GRUB screen to the bootup, then I had to GO IN AND MANUALLY EDIT THE GRUB BOOTLOADER TO BOOT INTO SINGLE USER MODE
+
+WHEN THAT DIDN'T WORK, I HAD TO REBOOT AND EDIT IT AGAIN TO BOOT INTO RUNLEVEL 3 (no gui)
+
+[try explaining this to your grandmother or snot nosed nephew who wants to play minecraft or call of duty]
+
+Also, after installing it, my display driver is @#$@k'ed, and I only have display output at 1024x768. 
+
+NOW I HAVE TO WADE THROUGH $(@*#* of log files and figure out how I burned down my house while trying to change a broken window that the contractor couldn't be #$%% to install correctly, and also, my phone (PPA) wouldn't work to call the company who sells them ....
+
 # Laptop Graphics crap (horrendous on Linux):
 ## Check graphics cards
 lspci -k | grep -A 2 -i "VGA"
