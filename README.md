@@ -50,6 +50,12 @@ So, given that 440 is the curent number, you think I would be correct in assumin
 
 WRONG. Instead, the package name was changed for NO DISCERNABLE REASON to nvidia-driver-XXX and NOBODY TOLD ME, or likely anyone else for that matter [not in any of the many forum posts I saw] (this is very common in the Linux ecosystem).
 
+Every time I would try to run "sudo apt install nvidia-440" it would very calmly and dumbly say "no package available by that name".
+
+JESUS CHRIST HOW THICK IN THE HEAD DO YOU HAVE TO BE TO RELEASE SOFTWARE PACKAGED LIKE THIS AND NOT AT LEAST INCLUDE A GODFORSAKEN ALIAS THAT WOULD TAKE NO MORE THAN 3 KEYSTROKES TO SET UP. 
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH. 
+
 3: (part 2)
 ```bash
 $ sudo apt install nvidia-driver-440
