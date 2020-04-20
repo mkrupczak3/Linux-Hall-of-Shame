@@ -28,6 +28,9 @@ NOW I HAVE TO WADE THROUGH $(@*#* of log files and figure out how I burned down 
 
 After working on this for over an hour and a half, I was able to fix it NOT by uninstalling and reinstalling the downloaded binary from NVIDIA, but through:
 
+1. MANUALLY $%$^#%@%'ing BLACKLISTING THE NOUVEAU DRIVER (this may or may not be necessary)
+
+2.  :
 ```bash
 $ sudo apt purge nvidia*
 ## if you reboot here, the computer will use Nouveau driver
@@ -37,15 +40,18 @@ $ ubuntu-drivers device
 ##     even though I just recently installed that and
 ##     and it didn't work (WTF?)
 ```
-
+3:
 ~~~$ sudo apt install nvidia-340~~~
 So, given that 440 is the curent number, you think I would be correct in assuming I need to run "sudo apt install nvidia-440" right?
 
 WRONG. Instead, the package name was changed for NO DISCERNABLE REASON to nvidia-driver-XXX and NOBODY TOLD ME, or likely anyone else for that matter [not in any of the many forum posts I saw] (this is very common in the Linux ecosystem).
 
+3: (part 2)
 ```bash
 $ sudo apt install nvidia-driver-440
 ```
+
+and it works. it just f'ing works. And I feel like an idiot. And also like I've been used or mistreated somehow....
 
 # Laptop Graphics crap (horrendous on Linux):
 ## Check graphics cards
