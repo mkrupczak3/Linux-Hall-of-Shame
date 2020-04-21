@@ -68,6 +68,9 @@ I [spoke too soon](https://github.com/ValveSoftware/steam-for-linux/issues/5778)
 
 (I'm unsure of whether I more want to power through this problem, or just set my computer on fire or drop it from the top of my residence onto the pavement below. I'm opting for number 2, because then at least no one else will have to ever use this pile of garbage ever again)
 
+So, aparrently, the PPA version (I installed "easily" using apt install nvidia-driver-440) DID NOT INSTALL 32-bit COMPATIBILITY LIBRARIES THAT ARE REQUIRED BY STEAM TO RUN (WTF?)
+
+WHO THE HELL ON EARTH IS LOOKING TO USE A LINUX COMPUTER WITH NVIDIA GRAPHICS DRIVERS INSTALLED WITHOUT STEAM? (not just CUDA mind you, *graphics* drivers.)
 
 
 # Laptop Graphics crap (horrendous on Linux):
