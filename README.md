@@ -128,3 +128,9 @@ redshift -l 4.65:-74.06 -t 6471:3600 -g 0.8 -m randr -v &
 # This unfortunately has been painfully demonstrated to me time and time again.
 ``` 
 
+# Glaring disk and IO bugs on Ubuntu 18.04
+https://askubuntu.com/questions/377253/unable-to-format-usb-drive-with-disks-udisks-error-quark-0
+
+Bugs in the very basic implementation of disk io in Ubuntu. Trying to get a simple ext4 thumbdrive working with encryption to store my private keys, but apparently this task is too much for the feeble likes of Ubuntu and it keeps crapping out, flimsing, throwing weird error messages, and generally shooting its load before actually formatting and mounting the disk properly.
+
+I have to say, from a User Interface standpoint, it's absolutely appaling that on a long-term support release I'm having to manually look up these error messages, install gparted, reformat the disk, and then go and manually format it again using an external tool instead of pressing the TWO BUTTONS IN THE NAUTILUS FILE BROWSER THAT SHOULD JUST F***** WORK GOD F***** DAMMIT UBUNTU WTF!!!!
