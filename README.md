@@ -5,7 +5,7 @@ A shaming hall for every time I have to wipe my computer's ass because something
 
 The year of Linux on the Desktop for those wondering, is probably one day after the heat death of the universe the way things look currently. No human should have to experience this misery. 
 
-Say what you will about Microsoft or Apple, but to their credit their computers actually work when you turn them on instead of having to deal with this kind of garbage
+Say what you will about Microsoft or Apple, but to their credit their computers actually work when you turn them on instead of having to deal with this hot trash
 
 # Steam 
 https://askubuntu.com/questions/1038754/steam-wont-start-on-18-04
