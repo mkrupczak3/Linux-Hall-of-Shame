@@ -131,6 +131,11 @@ redshift -l 4.65:-74.06 -t 6471:3600 -g 0.8 -m randr -v &
 #
 # This unfortunately has been painfully demonstrated to me time and time again.
 ``` 
+## FML
+At least this is one more thing Ubuntu makes easy:
+https://www.omgubuntu.co.uk/2017/10/enable-night-light-mode-on-ubuntu
+
+Guess I don't really have any grounds to complain
 
 # Glaring disk and IO bugs on Ubuntu 18.04
 https://askubuntu.com/questions/377253/unable-to-format-usb-drive-with-disks-udisks-error-quark-0
